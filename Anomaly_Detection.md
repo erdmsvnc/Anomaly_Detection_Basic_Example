@@ -36,6 +36,7 @@ df_clear.rename(columns={"pSpintor::VAX_speed" : "pSpintor_VAX_speed"},inplace=T
 ```
 
 🥇Isolation Forest
+---
 
 ```
 model = IsolationForest(n_estimators=100,max_samples='auto',contamination=float(0.2),max_features=1.0)
@@ -68,6 +69,7 @@ plt.show()
 
 
 🥈K-Means
+---
 
 ```
 X = df_clear
@@ -105,6 +107,7 @@ plt.plot(k_anomaly.index, k_anomaly[0], 'g', markersize=1)
 
 
 🥉KNN 
+---
 
 ```
 
