@@ -61,6 +61,8 @@ plt.show()
 <img width="607" alt="11" src="https://github.com/buzzi0/Task_Examples/assets/103946477/b0aea7f4-0b8a-4f7f-a770-0821b6c451fe">
 
 
+
+
 <img width="409" alt="Ekran Resmi 2024-03-22 14 57 06" src="https://github.com/buzzi0/Task_Examples/assets/103946477/5d1b895d-6860-4d92-afed-36c0fdcafe93">
 
 
