@@ -173,6 +173,9 @@ plt.show()
 <img width="586" alt="10" src="https://github.com/buzzi0/Task_Examples/assets/103946477/eab5f155-11cf-4999-aeb6-bea5ccfa7738">
 
 
+#Zoom atılmış hali yani ufakta olsa konumlarda hata farkı görülüyor
+
+
 <img width="1413" alt="10-1" src="https://github.com/buzzi0/Task_Examples/assets/103946477/d0a55ceb-57e3-4eb5-9cbe-029b6ec9d9c4">
 
 #Motor Tork Anomali Görselleştirme
