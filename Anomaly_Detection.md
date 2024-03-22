@@ -48,7 +48,18 @@ motor_torq_df = df_clear[['torq_anomaly']].copy()
 motor_torq_df['pCut_Motor_Torque'] = df_clear['pCut_Motor_Torque']
 
 motor_torq_df['torq_anomalies_score'] = df_clear['torq_anomalies_score']
+
+plt.scatter(motor_torq_df['pCut_Motor_Torque'], motor_torq_df['torq_anomalies_score'], c=motor_torq_df['torq_anomaly'], cmap='coolwarm')
+plt.xlabel('Motor Torq')
+plt.ylabel('Anomaly Scores')
+plt.title('Motor Tork Anomali Görselleştirme')
+plt.colorbar(label='Anomali')
+plt.show()
 ```
+
+
+<img width="607" alt="11" src="https://github.com/buzzi0/Task_Examples/assets/103946477/b0aea7f4-0b8a-4f7f-a770-0821b6c451fe">
+
 
 <img width="409" alt="Ekran Resmi 2024-03-22 14 57 06" src="https://github.com/buzzi0/Task_Examples/assets/103946477/5d1b895d-6860-4d92-afed-36c0fdcafe93">
 
