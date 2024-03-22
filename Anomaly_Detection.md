@@ -94,18 +94,15 @@ plt.plot(k_anomaly.index, k_anomaly[0], 'g', markersize=1)
 🥉KNN 
 
 ```
-# KNN modelini oluşturma
-k = 3  # Komşu sayısı
+
+k = 3  
 knn_model = NearestNeighbors(n_neighbors=k)
 knn_model.fit(df_clear)
 
-# Her bir veri noktasının k. en yakın komşusunu bulma
 distances, indices = knn_model.kneighbors(df_clear)
 
-# Her bir veri noktası için komşularının ortalamasını hesaplama
 avg_distances = np.mean(distances, axis=1)
 
-# Anomali tespiti
 threshold = np.percentile(avg_distances, 95)  # %95'lik eşik değeri
 knn_anomalies = df_clear[avg_distances > threshold]
 
