@@ -163,20 +163,21 @@ plt.show()
 ```
 sns.kdeplot(df_clear.pCut_Current_Position, color='blue', label='Data 1')
 sns.kdeplot(df_clear.pCut_CTRL_Position_controller_Actual_position, color='red', label='Data 2')
-plt.xlabel("Motor Torque")
-plt.ylabel("Value Distribution")
-plt.title("Motor torq degerlerinin grafiksel dagilimi")
+plt.xlabel("Konum Dağılımı")
+plt.title("Hatalı Konum Ile Doğru konumun üst üste çizilmesi")
 plt.legend()
 plt.show()
 ```
 
-<img width="586" alt="10" src="https://github.com/buzzi0/Task_Examples/assets/103946477/eab5f155-11cf-4999-aeb6-bea5ccfa7738">
+<img width="1416" alt="10" src="https://github.com/buzzi0/Task_Examples/assets/103946477/89bc3e3d-54cb-4da9-8d08-f9dcf21fa13a">
+
 
 
 #Zoom atılmış hali yani ufakta olsa konumlarda hata farkı görülüyor
 
 
-<img width="1413" alt="10-1" src="https://github.com/buzzi0/Task_Examples/assets/103946477/d0a55ceb-57e3-4eb5-9cbe-029b6ec9d9c4">
+<img width="1391" alt="10-1" src="https://github.com/buzzi0/Task_Examples/assets/103946477/ab8c11d5-5227-4d13-9b00-2c0195a17b68">
+
 
 #Motor Tork Anomali Görselleştirme
 ---
